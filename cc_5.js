@@ -58,3 +58,12 @@ let customers = ["Alice", "Bob", "Charlie", "David"]  //Declare an array of cust
 
 let customer01 = customers.find((customer) => customer == 'Charlie')  //Use .find to locate the cusotmer "charlie"
 console.log(customer01)  //Log the customer
+
+
+//Task 8: Function Declaration
+function calculateTax(amount, taxRate) {
+    return amount * taxRate}  //Write function that calculates tax amount
+
+console.log(`Tax: ${calculateTax(200, 0.2)}`)  //Returns the calculated tax amount and logs it to the console using template literal
+
+
