@@ -37,3 +37,10 @@ let prices = [100, 200, 300]  //Declare an array of prices
 
 let disocuntedPrices = prices.map(price => price - (price * 0.10))  //Use the .map method to apply a 10% discount to each price
 console.log(disocuntedPrices)  //Log new prices
+
+
+//Task 5: Filter Method
+let inventory = [5, 0, 12, 8, 0]   //Declare an array with at least five product quantities
+
+let filteredInv = inventory.filter(inventory => inventory > 0);  //Use the .filter method to remove products with zero stock
+console.log(filteredInv)   //Log the filtered array 
