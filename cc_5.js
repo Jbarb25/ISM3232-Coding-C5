@@ -44,3 +44,10 @@ let inventory = [5, 0, 12, 8, 0]   //Declare an array with at least five product
 
 let filteredInv = inventory.filter(inventory => inventory > 0);  //Use the .filter method to remove products with zero stock
 console.log(filteredInv)   //Log the filtered array 
+
+
+//Task 6: Reduce Method
+let sales = [500, 300, 200, 400]   //Declare an array of sales 
+
+let totalRevenue = sales.reduce((sum, sale) => sum + sale, 0);  //Use .reduce method to calculate total revenue of all sales in the array
+console.log(totalRevenue)  //Log the total revenue
