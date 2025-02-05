@@ -67,3 +67,8 @@ function calculateTax(amount, taxRate) {
 console.log(`Tax: ${calculateTax(200, 0.2)}`)  //Returns the calculated tax amount and logs it to the console using template literal
 
 
+//Task 9: Function Expression
+function applyDiscount(price, discount){
+    return (price - (price * discount))}   //Write function that calculates discount amount and the price after the disocunt 
+
+console.log(`Discounted Price: ${applyDiscount(200, 0.2)}`)  //Returns the calculated discounted price to the console calling the function 
