@@ -72,3 +72,9 @@ function applyDiscount(price, discount){
     return (price - (price * discount))}   //Write function that calculates discount amount and the price after the disocunt 
 
 console.log(`Discounted Price: ${applyDiscount(200, 0.2)}`)  //Returns the calculated discounted price to the console calling the function 
+
+
+//Task 10: Arrow Functions 
+const calculatePoints = (purchaseAmount) => (purchaseAmount/10)  //Write an arrow function that returns 1 point per $10 spent
+
+console.log(`Points Earned: ${calculatePoints(200)}`)  //Log the points calculated plugging in the purchase amount
