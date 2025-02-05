@@ -51,3 +51,10 @@ let sales = [500, 300, 200, 400]   //Declare an array of sales
 
 let totalRevenue = sales.reduce((sum, sale) => sum + sale, 0);  //Use .reduce method to calculate total revenue of all sales in the array
 console.log(totalRevenue)  //Log the total revenue
+
+
+//Task 7: find() Method
+let customers = ["Alice", "Bob", "Charlie", "David"]  //Declare an array of customers
+
+let customer01 = customers.find((customer) => customer == 'Charlie')  //Use .find to locate the cusotmer "charlie"
+console.log(customer01)  //Log the customer
