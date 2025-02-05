@@ -30,3 +30,10 @@ cartItems.pop()  //Remove the last item using .pop that will return the item if 
 cartItems.unshift("jacket")  //Add an item at the beginning using .unshift 
 cartItems.shift()  //Remove the first item using .shift and returns it if requested
 console.log(cartItems)
+
+
+//Task 4: Map Method
+let prices = [100, 200, 300]  //Declare an array of prices
+
+let disocuntedPrices = prices.map(price => price - (price * 0.10))  //Use the .map method to apply a 10% discount to each price
+console.log(disocuntedPrices)  //Log new prices
